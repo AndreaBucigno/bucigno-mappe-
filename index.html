@@ -76,8 +76,9 @@
     }
   }
 
+
   function goTo() {
-  
+
     const lat = parseFloat(document.getElementById('lat').value);
     const lon = parseFloat(document.getElementById('lon').value);
     if (isNaN(lat) || isNaN(lon)) { document.getElementById('status').textContent = 'Coordinate non valide.'; return; }
