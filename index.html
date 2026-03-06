@@ -49,6 +49,7 @@
     if (marker) marker.remove();
     marker = L.marker([lat, lon]).addTo(map).bindPopup(label).openPopup();
   }
+  
 
   async function searchPlace() {
     const q = document.getElementById('query').value.trim();
